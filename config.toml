@@ -1,0 +1,16 @@
+# The URL the site will be built for
+title = ""
+description = ""
+base_url = "https://veeenu.github.io/homebrewing"
+
+[translations.en]
+about = "About"
+home = "Home"
+tags = "Tags"
+archive = "Archive"
+links = "Links"
+next_page = "Next Page"
+last_page = "Last Page"
+
+[extra]
+# Put all your custom variables here
