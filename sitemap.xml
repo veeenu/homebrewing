@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://veeenu.github.io/homebrewing/</loc>
+    </url>
+    <url>
+        <loc>https://veeenu.github.io/homebrewing/beer/</loc>
+    </url>
+    <url>
+        <loc>https://veeenu.github.io/homebrewing/beer/hoegaarden/</loc>
+        <lastmod>2021-05-22</lastmod>
+    </url>
+    <url>
+        <loc>https://veeenu.github.io/homebrewing/beer/marzen/</loc>
+        <lastmod>2021-05-01</lastmod>
+    </url>
+    <url>
+        <loc>https://veeenu.github.io/homebrewing/mead/</loc>
+    </url>
+    <url>
+        <loc>https://veeenu.github.io/homebrewing/mead/batches/</loc>
+        <lastmod>2021-05-08</lastmod>
+    </url>
+</urlset>
