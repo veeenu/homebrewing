@@ -1,5 +1,24 @@
 {% extends "base.html" %}
 
 {% block content %}
+{% set section = get_section(path="beer/_index.md") %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+<ul>
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }} <small>{{ page.date }}</small></a></li>
+  {% endfor %}
+</ul>
+
+{% set section = get_section(path="mead/_index.md") %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+<ul>
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }} <small>{{ page.date }}</small></a></li>
+  {% endfor %}
+</ul>
 {{ section.content | safe }}
 {% endblock content %}
